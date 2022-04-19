@@ -56,8 +56,10 @@ main{
 
 #largest-app{ 
     flex:100%;
-    margin-left:auto;
-    margin-right:auto;
+}
+
+#largest-app img{
+    width:100%;
 }
 
 
@@ -67,13 +69,14 @@ h3{
 
 .apps{
     flex:25%;
-    padding:20px;
+    max-width:25%;
+    padding:0 4px;
 }
 
-img{
-   max-width:100%;
-
+.apps img{
+    width:100%;
 }
+
 #contact-info{
     flex:0 0 100%;
     background-color:#b9c6ae;
