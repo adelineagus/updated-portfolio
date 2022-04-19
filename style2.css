@@ -6,9 +6,6 @@
 
 body {
     font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
 }
 
 h1{
@@ -23,14 +20,11 @@ header {
 }
 
 nav{
+    display:flex;
     background-color:black;
     text-align:center;
     padding: 10px;
-    margin:0;
-    /*margin-right: 20px;
-    float: right;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;*/
+    margin: 0;
 }
 
 nav a{
@@ -39,32 +33,73 @@ nav a{
     color:white;
     text-decoration: none;
 }
+
 main{
     display:flex;
     flex-wrap:wrap;
 }
-/*.content{
-    display: inline-block;
-    justify-content:space-between;
-}*/
+
+.content{
+   /* padding:20px;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+
+}
+.subcontent{
+    flex-wrap:wrap;
+    margin-top:20px;
+    padding:20px;
+    background-color: blanchedalmond;
+}
 
 #about-me{
-    margin-top: 20px;
     margin-left: 30px;
-    padding:20px;
-    float: left;
-    width: 45%;
-    background-color: blanchedalmond;
+    flex-wrap:wrap;
+    /*width: 45%;*/
 }
 
 #work-apps{
-    margin-top: 200px;
-    margin-right:30px;
-    padding: 20px;
-    float:right;
-    width: 50%;
-    background-color: blanchedalmond;
+   margin-right: 30px;
+   display: flex;
+   flex-wrap: wrap;
 }
+h3{
+    text-decoration: underline;
+
+}
+
+.apps{
+    margin:20px;
+    flex-wrap:wrap;
+}
+
+.apps > header{
+    padding: 20px;
+    font-size:20px;
+    text-align:center;
+}
+/*#largest-app{
+    height: 100%;
+    width: 100%;
+}*/
+
+#largest-app > img{
+    height:350px;
+    width:700px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+/*.apps{
+    height:100%;
+    width:100%;
+}*/
+.apps > img{
+    height:125px;
+    width:250px;
+}
+
 
 #contact-info{
     margin-top:20px;
@@ -96,17 +131,7 @@ p{
 }
 
 
-h3{
-    text-decoration: underline;
-}
 
-.apps header{
-    font-size:20px;
-}
-.apps img{
-    display:inline-block;
-
-}
 
 
 @media screen and (max-width:992px) {

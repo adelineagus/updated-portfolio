@@ -1,0 +1,86 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:0;
+}
+
+header{
+    padding:20px; 
+    text-align:center;
+    background-color:#b9c6ae;
+}
+
+nav{
+    display:flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 20px;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#about-me{
+    flex: 0 0 100%;
+    padding:30px;
+    flex-wrap: wrap;
+    justify-content:left;
+}
+
+#work-apps{
+    margin-top: 10px;
+    margin-right: 10px;
+    border-style: solid;
+    flex:0 0 100%;
+    background-color: #fff;
+    padding: 30px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#small-apps{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#largest-app{ 
+    flex:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+h3{
+    text-align:center;
+}
+
+.apps{
+    flex:25%;
+    padding:20px;
+}
+
+img{
+   max-width:100%;
+
+}
+#contact-info{
+    flex:0 0 100%;
+    background-color:#b9c6ae;
+    padding: 30px;
+}
+
+#contact-info li{
+    margin:20px 50px;
+    list-style-type: none;
+}
