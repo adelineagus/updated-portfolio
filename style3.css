@@ -32,11 +32,33 @@ main{
 }
 
 #about-me{
-    flex: 0 0 100%;
+    flex: 100%;
     padding:30px;
-    flex-wrap: wrap;
-    justify-content:left;
+    display: flex;
+    flex-wrap:wrap;
 }
+
+
+aside {
+    flex: 40%;
+    padding: 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.column{
+    flex: 60%;
+    padding:0 4px;
+    /*flex-direction:column;*/
+    justify-content:center;
+    align-items:center;
+}
+
+aside img{
+    max-width:100%;
+}
+
 
 #work-apps{
     margin-top: 10px;
@@ -49,13 +71,17 @@ main{
     flex-wrap: wrap;
 }
 
+#work-apps p{
+    font-size:15px;
+    text-align:center;
+}
 #small-apps{
-    display:flex;
-    flex-wrap:wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #largest-app{ 
-    flex:100%;
+    flex: 100%;
 }
 
 #largest-app img{
@@ -63,9 +89,11 @@ main{
 }
 
 
-h3{
+/*h3{
     text-align:center;
-}
+    display:flex;
+
+}*/
 
 .apps{
     flex:25%;
