@@ -1,18 +1,22 @@
+/*setting up base style*/
 *{
     box-sizing:border-box;
 }
 
+/*setting up style for body*/
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin:0;
 }
 
+/*header style*/
 header{
     padding:20px; 
     text-align:center;
     background-color:#b9c6ae;
 }
 
+/*nav style which includes flex properties*/
 nav{
     display:flex;
     background-color: black;
@@ -26,6 +30,7 @@ nav a {
     text-align: center;
 }
 
+/*ensure main sections are in a flex style and wrap sections to not exceed screen size*/
 main{
     display: flex;
     flex-wrap: wrap;
@@ -38,7 +43,7 @@ main{
     flex-wrap:wrap;
 }
 
-
+/*aside section to take 40% of about me section and to be placed in center of the section*/
 aside {
     flex: 40%;
     padding: 20px;
@@ -47,14 +52,15 @@ aside {
     align-items:center;
 }
 
+/*column section to take 60% of about me section and to be placed in center of section*/
 .column{
     flex: 60%;
     padding:0 4px;
-    /*flex-direction:column;*/
     justify-content:center;
     align-items:center;
 }
 
+/*ensure profile picture isn't exceeding 100%*/
 aside img{
     max-width:100%;
 }
@@ -67,7 +73,7 @@ aside img{
     flex:0 0 100%;
     background-color: #fff;
     padding: 30px;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
 }
 
@@ -75,6 +81,7 @@ aside img{
     font-size:15px;
     text-align:center;
 }
+
 #small-apps{
     display: flex;
     flex-wrap: wrap;
@@ -89,13 +96,13 @@ aside img{
     width:100%;
 }
 
-
+/*setting up each application to take 25% of small apps section*/
 .apps{
     flex:25%;
     max-width:25%;
     padding:0 4px;
 }
-
+/*setting up apps image to take full width of the section*/
 .apps img{
     width:100%;
 }
