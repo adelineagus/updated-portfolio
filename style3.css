@@ -85,15 +85,10 @@ aside img{
 }
 
 #largest-app img{
+    align-self:center;
     width:100%;
 }
 
-
-/*h3{
-    text-align:center;
-    display:flex;
-
-}*/
 
 .apps{
     flex:25%;
