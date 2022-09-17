@@ -20,7 +20,7 @@
 [third screenshot](./images/thirdscreenshot.png)
 
   
-  Repo: https://github.com/adelineagus/updated-porfolio
+  Repo: https://github.com/adelineagus/updated-portfolio
 
   Website: https://adelineagus.github.io/updated-portfolio/
 
