@@ -20,9 +20,9 @@
 [third screenshot](./images/thirdscreenshot.png)
 
   
-  Repo: https://github.com/adelineagus/updated_porfolio
+  Repo: https://github.com/adelineagus/updated-porfolio
 
-  Website: https://adelineagus.github.io/updated_portfolio/
+  Website: https://adelineagus.github.io/updated-portfolio/
 
   ## Questions
   To see more projects, visit my github page at https://github.com/adelineagus. If you have any questions regarding this project, feel free to contact me at adelineaguspranoto@gmail.com.
