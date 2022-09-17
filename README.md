@@ -12,11 +12,14 @@
  6. When contact information are clicked, user will be redirected to corresponding contact.
 
  Screenshot: 
-[link](./images/firstscreenshot.png)
-[link](./images/secondscreenshot.png)
-[link](./images/thirdscreenshot.png)
+[first screenshot](./images/firstscreenshot.png)
+
+[second screenshot](./images/secondscreenshot.png)
+
+[third screenshot](./images/thirdscreenshot.png)
 
   Repo: https://github.com/adelineagus/updated_porfolio
+  
   Website: https://adelineagus.github.io/updated_portfolio/
 
   ## Questions
